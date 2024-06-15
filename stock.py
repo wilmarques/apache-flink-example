@@ -24,4 +24,4 @@ def generate(stream_name, kinesis_client):
 
 
 if __name__ == '__main__':
-    generate(STREAM_NAME, boto3.client('kinesis', region_name='us-west-2'))
+    generate(STREAM_NAME, boto3.client('kinesis', region_name='us-east-1'))
